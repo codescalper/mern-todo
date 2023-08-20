@@ -3,7 +3,7 @@ import { Card } from '@mui/material';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 
-function Todo(darkMode) {
+function TodoUi(darkMode) {
     return (
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop: 20 }}>
             <Card style={{ width: '30%' }}>
@@ -53,4 +53,4 @@ function Todo(darkMode) {
     )
 }
 
-export default Todo;
+export default TodoUi;
