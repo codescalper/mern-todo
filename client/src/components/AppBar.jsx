@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import Switch from '@mui/material/Switch';
 
 const label = { inputProps: { 'aria-label': 'Color switch demo' } };
-export default function ButtonAppBar() {
+export default function ButtonAppBar(change, check) {
     return (
         <Box sx={{ flexGrow: 1 }}>
             <AppBar position="static" sx={{ backgroundColor: 'transparent' }}>
@@ -14,7 +14,7 @@ export default function ButtonAppBar() {
                     <Typography variant="h4" component="div" sx={{ flexGrow: 1, color: 'black', textAlign: 'center' }}>
                         My Todo List
                     </Typography>
-                    <Switch {...label} defaultChecked color="secondary" />
+                    <Switch {...label} defaultChecked color="secondary" onChange={change} checked={check} />
                 </Toolbar>
             </AppBar>
         </Box >
