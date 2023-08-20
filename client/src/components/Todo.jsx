@@ -3,7 +3,7 @@ import { Card } from '@mui/material';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 
-function Todo() {
+function Todo(darkMode) {
     return (
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop: 20 }}>
             <Card style={{ width: '30%' }}>
@@ -40,9 +40,11 @@ function Todo() {
                 </div>
                 <div style={{ textAlign: 'center', paddingBottom: 16 }}>
                     <Button variant="contained" sx={{
-                        backgroundColor: '#942fad', ":hover": {
+                        backgroundColor: '#942fad',
+                        color: darkMode ? 'white' : 'white',
+                        ":hover": {
                             backgroundColor: '#ada32f',
-                            color: 'black'
+                            color: "black"
                         }
                     }}>Add Todo</Button>
                 </div>

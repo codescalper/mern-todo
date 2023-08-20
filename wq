@@ -1,0 +1,41 @@
+[33mcommit fa667d2859f6aa87f63bedf111d12409310e3e65[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Mayank Singh <92156721+codescalper@users.noreply.github.com>
+Date:   Sun Aug 20 08:27:54 2023 +0000
+
+    Made the UI
+
+[33mcommit 0e527ed6d7265397e3d610216eadd5025c093b20[m
+Author: Mayank Singh <92156721+codescalper@users.noreply.github.com>
+Date:   Sun Aug 20 07:46:50 2023 +0000
+
+    Created Basic UI
+
+[33mcommit 1cc682239647a4e57a4016ab4254e36955014356[m
+Author: Mayank Singh <92156721+codescalper@users.noreply.github.com>
+Date:   Sat Aug 19 07:24:33 2023 +0000
+
+    add
+
+[33mcommit 6b2abda12164db86bcc03b2936865f266cfe2dd7[m
+Author: Mayank Singh <92156721+codescalper@users.noreply.github.com>
+Date:   Sat Aug 19 07:05:55 2023 +0000
+
+    Added configuration file `vercel.json`
+
+[33mcommit 712e29e16ca24c20d532fa467ac6d3e776025043[m
+Author: Mayank Singh <92156721+codescalper@users.noreply.github.com>
+Date:   Sat Aug 19 07:01:57 2023 +0000
+
+    Added `api` routes for todo
+
+[33mcommit 8355dae2087279a41a95d06d337ae20af7eb64b0[m
+Author: Mayank Singh <92156721+codescalper@users.noreply.github.com>
+Date:   Sat Aug 19 05:58:29 2023 +0000
+
+    Initialized Project using vite
+
+[33mcommit e90c5918f16ef9960efffe3ed5acc8a03204f619[m
+Author: Mayank Singh <92156721+codescalper@users.noreply.github.com>
+Date:   Sat Aug 19 11:20:51 2023 +0530
+
+    Initial commit
