@@ -23,7 +23,7 @@ function deleteItemIndex(arr, id) {
 
 app.use(bodyParser.json());
 app.use(cors({
-  origin: ["https://mern-todo-mayank.vercel.app/"],
+  origin: ["https://mern-todo-mayank.vercel.app"],
 }));
 
 var todo = []
