@@ -1,10 +1,15 @@
+
 import { useState } from 'react'
+import ButtonAppBar from './components/AppBar'
+import Todo from './components/Todo'
 
 function App() {
   return (
-    <>
-      Hi There
-    </>
+
+    <div>
+      <ButtonAppBar />
+      <Todo />
+    </div>
   )
 }
 
