@@ -73,7 +73,7 @@ app.put('/todos/:id', (req, res) => {
     if (req.body.description) {
       todo[todoIndex].description = req.body.description
     }
-    res.status(200).json(todo[todoIndex])
+    res.status(200).json(todo)
   }
 })
 
