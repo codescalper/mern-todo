@@ -23,9 +23,9 @@ function deleteItemIndex(arr, id) {
 
 app.use(bodyParser.json());
 app.use(cors(
-  //   {
-  //   origin: ["http://localhost:5173/"],
-  // }
+  {
+    origin: ["https://mern-todo-mayank.vercel.app"],
+  }
 ));
 
 var todo = []
