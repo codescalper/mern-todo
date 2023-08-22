@@ -23,7 +23,7 @@ function App() {
         setTodos(data);
       });
     });
-  }, [todos]);
+  }, []);
 
   return (
     <ThemeProvider theme={darkTheme}>
